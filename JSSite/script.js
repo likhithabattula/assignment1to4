@@ -2,6 +2,10 @@ function changeText() {
     document.getElementById("textSection").innerHTML = "<p>This text has been changed.</p>";
 }
 
+function changeText2() {
+    document.getElementById("textSection2").innerHTML = "<p>This text has been changed to something else.</p>";
+}
+
 function changeImage() {
     document.getElementById("imageSection").innerHTML = "<img style='width: 80px; height: 80px;' src='https://st3.depositphotos.com/1003352/16380/i/450/depositphotos_163808604-stock-photo-spring-bloom-1.jpg' alt='New Image'>";
 }
